@@ -1,25 +1,27 @@
 
 # Rapport
 
-Använde fork på github för att få repositoren.
-Clonade filen till min android stuido.
-Gick in i values sen strings.xml och ändrade namnet till Hellod20andal.
-Comittade och pushade ändringen till github.
+La till uses-premission för internet i Androidmanifest.xml.
+I activity_main.xml ändrade jag textview till webview och la till ett id my_webview".
+Gjorde en privat variabel i MainActivity.java som heter myWebView.
+Skapade en ny java class, WebViewClient.java.
+
 
 ## Följande grundsyn gäller dugga-svar:
 
 
 
 ```
+<uses-permission android:name="android.permission.INTERNET" />
 
-<resources>
-    <string name="app_name">Hello d20andal</string>
-</resources>
+android:id="@+id/my_webview"
+
+private WebView myWebView;
 
 ```
 
 Bilder läggs i samma mapp som markdown-filen.
 
 
-![](android.png)
+![](android.png) 
 

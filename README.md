@@ -24,8 +24,7 @@ myWebView = findViewById(R.id.my_webview);
 
 myWebView.setWebViewClient(new WebViewClient());
 
-WebSettings webSettings = myWebView.getSettings();
-webSettings.setJavaScriptEnabled(true);
+myWebView.getSettings().setJavaScriptEnabled(true);
 
 myWebView.loadUrl("https://his.se");
 

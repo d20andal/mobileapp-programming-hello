@@ -24,14 +24,15 @@ public class MainActivity extends AppCompatActivity {
         myWebView = findViewById(R.id.my_webview);
         myWebView.setWebViewClient(new WebViewClient());
 
+        myWebView.getSettings().setJavaScriptEnabled(true);
 
-        WebSettings webSettings = myWebView.getSettings();
-        webSettings.setJavaScriptEnabled(true);
         myWebView.loadUrl("file:///android_asset/html");
         myWebView.loadUrl("https://his.se");
 
 
     }
+
+
 }
 
 

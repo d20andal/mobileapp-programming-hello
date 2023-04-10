@@ -32,6 +32,14 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    private void showExternalWebPage() {
+
+        myWebView.loadUrl("https://www.his.se");
+    }
+
+    private void showInternalWebPage() {
+        myWebView.loadUrl("file:///android_asset/html");
+    }
 
 }
 

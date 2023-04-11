@@ -7,7 +7,10 @@ Gjorde en privat variabel i MainActivity.java som heter myWebView.
 Lokaliserade webview genom id "my_webview".
 Gjorde en webviewcliet och kopplade den till mywebview.
 Aktivera Javascript.
+Gjorde en html fil.
+
 La till en extern webbsida "www.his.se".
+
 
 ## Följande grundsyn gäller dugga-svar:
 

@@ -26,9 +26,9 @@ public class MainActivity extends AppCompatActivity {
 
         myWebView.getSettings().setJavaScriptEnabled(true);
 
-        myWebView.loadUrl("file:///android_asset/html");
-        myWebView.loadUrl("https://his.se");
 
+        myWebView.loadUrl("https://his.se");
+        myWebView.loadUrl("file:///android_asset/html");
 
     }
 
@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void showInternalWebPage() {
+
         myWebView.loadUrl("file:///android_asset/html");
     }
 

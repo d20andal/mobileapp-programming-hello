@@ -8,10 +8,10 @@ Lokaliserade webview genom id "my_webview".
 Gjorde en webviewcliet och kopplade den till mywebview.
 Aktivera Javascript.
 Gjorde en html fil i assets filen.
-Gjorde en länk till google i den.
-La till en extern webbsida "www.his.se".
+Gjorde en länk till google.se i den (img_2.png).
+La till en extern webbsida "www.his.se" (img_1.png).
 Skapade en ny xml fil i res_menu för att kunna göra menu dropdown.
-Gjorde en onCreateOptionsMenu för att få tillgång till menyn.
+Gjorde en onCreateOptionsMenu för att få tillgång till menyn. (img.png)
 Hämtar webbsidorna med onOptionsItemSelected genom id menu_external och menu_internal.
 
 
@@ -99,5 +99,5 @@ public class MainActivity extends AppCompatActivity {
 Bilder läggs i samma mapp som markdown-filen.
 
 
-![](![img.png]![img_1.png]![img_2.png]) 
+![![img.png](img.png)![img_1.png](img_1.png)![img_2.png](img_2.png)]
 
